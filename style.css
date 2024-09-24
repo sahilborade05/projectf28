@@ -409,7 +409,7 @@ nav{
 .login-btn {
     width: 100%;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: darkcyan;
     color: white;
     border: none;
     border-radius: 5px;
@@ -419,7 +419,7 @@ nav{
 }
 
 .login-btn:hover {
-    background-color: #45a049;
+    background-color: rgb(3, 104, 104);
 }
 
 .signup-link {
@@ -427,7 +427,7 @@ nav{
 }
 
 .signup-link a {
-    color: #4CAF50;
+    color:  darkcyan;
     text-decoration: none;
 }
 
@@ -692,5 +692,11 @@ nav{
     
 
   
+ }
+
+@media(min-width: 1280px){
+    .login-container{
+        height: 94vh;
+    }
  }
 
